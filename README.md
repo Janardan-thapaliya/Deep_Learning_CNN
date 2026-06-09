@@ -9,7 +9,7 @@ Hands-on notebooks exploring Convolutional Neural Networks (CNNs), transformer-b
 ```
 Deep_Learning_CNN/
 ├── Cat_Dog_CNN.ipynb                  ← Custom CNN for binary image classification
-├── Cats_Vs_Dogs_Classification.ipynb  ← Transfer learning on Cats vs Dogs dataset
+├── Cats_Vs_Dogs_Classification.ipynb  ← Classification CNN
 ├── Encoder_BERT.ipynb                 ← BERT encoder for text representation
 └── N_MNIST_CNN.ipynb                  ← CNN on neuromorphic N-MNIST event data
 ```
@@ -28,11 +28,10 @@ A custom CNN trained from scratch to classify images as cats or dogs.
 ---
 
 ### 2. `Cats_Vs_Dogs_Classification.ipynb`
-Transfer learning applied to the Cats vs Dogs classification problem using a pretrained backbone.
+CNN for Cats vs Dogs classification problem.
 
-- **Approach:** Pretrained CNN backbone with fine-tuned classification head
-- **Dataset:** Cats vs Dogs (Kaggle / TensorFlow Datasets)
-- **Key concepts:** Transfer learning, data augmentation, fine-tuning
+- **Approach:** CNN 
+- **Dataset:** Cats vs Dogs (Kaggle)
 
 ---
 
